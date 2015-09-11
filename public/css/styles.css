@@ -1,5 +1,4 @@
 /* ------------------------------------------------------------- */
-/* ---------------------------BRKOR----------------------------- */
 /* ------------------------------------------------------------- */
 
 
@@ -88,7 +87,7 @@ header {
     right: 0;
     height: 100vh;
     width: 600px;
-    background: url(../img/mypicture.png) no-repeat top right;
+    /*background: url(../img/mypicture.png) no-repeat top right;*/
     background-size: contain;
     background-attachment: fixed;
 }
