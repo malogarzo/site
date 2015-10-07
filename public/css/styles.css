@@ -520,11 +520,15 @@ to {
     
     body {
         padding-top: 20px;
-        margin-right: 10%;
+        margin-right: 0;
     }
     
     .wrap {
         padding-left: 5%;
+    }
+
+    nav {
+        left: 0;
     }
     
 }
@@ -537,9 +541,18 @@ to {
     .mypicture {
         display: none;
     }
+
+    .wrap {
+        padding-left: 0;
+        padding-right: 0;
+    }
     
     header {
         text-align: center;
+    }
+
+    nav {
+        left: 0;
     }
     
     .mesmall {
@@ -560,7 +573,11 @@ to {
 @media screen and (max-width: 920px){
     
     .wrap {
-        padding-left: 5%;
+        padding-left: 0;
+    }
+
+    nav {
+        left: 0;
     }
     
 }
