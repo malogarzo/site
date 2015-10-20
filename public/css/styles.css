@@ -527,6 +527,11 @@ to {
         padding-left: 5%;
     }
 
+    .wrap-main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     nav {
         left: 0;
     }
@@ -581,3 +586,13 @@ to {
     }
     
 }
+
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        display: inline-block;
+        float: none;
+
+    }
+}
+
