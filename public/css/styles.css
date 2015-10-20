@@ -199,9 +199,9 @@ nav ul li a {
 /* Content styling
 ------------------------------------------------------------- */
 
-.wrap {
-    padding-left: 140px;
-    padding-right: 10%;
+.wrap, .main-wrap{
+    /*padding-left: 140px;
+    padding-right: 10%;*/
 }
 
 .content {
@@ -581,6 +581,10 @@ to {
         padding-left: 0;
     }
 
+    .main-wrap {
+        padding-left: 10%;
+    }
+
     nav {
         left: 0;
     }
@@ -588,7 +592,7 @@ to {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
     .navbar-nav {
         display: inline-block;
         float: none;
