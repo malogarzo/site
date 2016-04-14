@@ -507,16 +507,12 @@ to {
     width:70%;
 }}
 
-/* Max width 1100px
+
+/* Max width 1000px
 ------------------------------------------------------------- */
 
 @media screen and (max-width: 1150px){
-    
-    body {
-        padding-top: 20px;
-        margin-right: 0;
-    }
-    
+
     .wrap {
         padding-left: 5%;
     }
@@ -524,21 +520,6 @@ to {
     .wrap-main {
         padding-left: 15px;
         padding-right: 15px;
-    }
-
-    nav {
-        left: 0;
-    }
-    
-}
-
-/* Max width 1000px
-------------------------------------------------------------- */
-
-@media screen and (max-width: 1150px){
-    
-    body {
-        padding-botom: 0;
     }
 
     .mypicture {
@@ -564,6 +545,7 @@ to {
     
     .mesmall {
         float: none;
+        margin-top: 0;
     }
     
     .myname {
@@ -579,9 +561,6 @@ to {
 
 @media screen and (max-width: 920px){
     
-    body {
-        padding-bottom: 0;
-    }
 
     header {
         margin-bottom: 30px;
@@ -611,8 +590,12 @@ to {
 
 @media screen and (max-width: 667px){
     
+    h1 {
+        font-size: 41px;
+    }
+
     .main-wrap {
-        padding-left: 42px;
+        padding-left: 41px;
     }
     
 }
