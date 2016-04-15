@@ -15,7 +15,18 @@ Table of content
 
 ------------------------------------------------------------- */
 
+html {
+  position: relative;
+  min-height: 100%;
+}
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
 
 /* General styling
 ------------------------------------------------------------- */
@@ -31,7 +42,7 @@ body {
     font-weight: 300;
     overflow-x: hidden;
     padding-top: 55px;
-    padding-bottom: 100px;
+    margin-bottom: 60px;
     overflow-y: scroll;
 }
 
@@ -346,10 +357,6 @@ h2, .h2 {
 /* Footer
 ------------------------------------------------------------- */
 
-footer {
-    margin-top: 100px;
-}
-
 .social {
     list-style-type: none;
     margin-left: -40px;
@@ -513,26 +520,8 @@ to {
 
 @media screen and (max-width: 1150px){
 
-    .wrap {
-        padding-left: 5%;
-    }
-
-    .wrap-main {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
     .mypicture {
         display: none;
-    }
-
-    .wrap {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .main-wrap {
-        margin: 0;
     }
     
     header {
@@ -563,15 +552,15 @@ to {
     
 
     header {
-        margin-bottom: 30px;
-    }
-
-    .main-wrap {
-        padding-left: 0;
+        margin-bottom: 50px;
     }
 
     nav {
         left: 0;
+    }
+
+    footer {
+        text-align: center;
     }
     
 }
@@ -604,17 +593,6 @@ to {
 
     }
 }
-
-@media (min-width: 1200px) {
-    .container {
-        width: 750px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        width: 750px;
-    }
-}                  
+              
 
 
